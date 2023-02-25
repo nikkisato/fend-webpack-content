@@ -1,7 +1,5 @@
-import { checkForName } from './js/nameChecker'
-import { handleSubmit } from './js/formHandler'
+module.exports = {
+  entry: "./src/client/index.js",
+};
 
-console.log(checkForName);
-
-alert("I EXIST")
-console.log("CHANGE!!");
+alert("Hello!");

@@ -1,0 +1,460 @@
+{
+  "errors": [],
+  "warnings": [
+    "configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/"
+  ],
+  "version": "4.46.0",
+  "hash": "c2a3e927d4c8f9a67737",
+  "time": 107,
+  "builtAt": 1677301616263,
+  "publicPath": "",
+  "outputPath": "/Users/Nikki/personal-projects/fend-webpack-content/dist",
+  "assetsByChunkName": {
+    "main": "main.js"
+  },
+  "assets": [
+    {
+      "name": "main.js",
+      "size": 1154,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {},
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "main.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "main.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 914,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "main.js"
+      ],
+      "hash": "4aaf9d6645628a395cdf",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/Users/Nikki/personal-projects/fend-webpack-content/src/client/index.js ee7c36af77e08c81849e0aec8976337e",
+          "name": "./src/client/index.js + 2 modules",
+          "index": 0,
+          "index2": 2,
+          "size": 914,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/client/index.js",
+              "loc": "main"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0,
+          "modules": [
+            {
+              "id": null,
+              "identifier": "/Users/Nikki/personal-projects/fend-webpack-content/src/client/index.js",
+              "name": "./src/client/index.js",
+              "index": 0,
+              "index2": 2,
+              "size": 167,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "./src/client/index.js",
+                  "loc": "main"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is an entry point"
+              ],
+              "depth": 0,
+              "source": "import { checkForName } from './js/nameChecker'\nimport { handleSubmit } from './js/formHandler'\n\nconsole.log(checkForName);\n\nalert(\"I EXIST\")\nconsole.log(\"CHANGE!!\");\n"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/Nikki/personal-projects/fend-webpack-content/src/client/js/nameChecker.js",
+              "name": "./src/client/js/nameChecker.js",
+              "index": 1,
+              "index2": 0,
+              "size": 314,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/Nikki/personal-projects/fend-webpack-content/src/client/index.js",
+              "issuerId": null,
+              "issuerName": "./src/client/index.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/Users/Nikki/personal-projects/fend-webpack-content/src/client/index.js",
+                  "name": "./src/client/index.js"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/Nikki/personal-projects/fend-webpack-content/src/client/index.js",
+                  "module": "./src/client/index.js",
+                  "moduleName": "./src/client/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./js/nameChecker",
+                  "loc": "1:0-47"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/Nikki/personal-projects/fend-webpack-content/src/client/index.js",
+                  "module": "./src/client/index.js",
+                  "moduleName": "./src/client/index.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "./js/nameChecker",
+                  "loc": "4:12-24"
+                }
+              ],
+              "usedExports": [
+                "checkForName"
+              ],
+              "providedExports": [
+                "checkForName"
+              ],
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "function checkForName(inputText) {\n    console.log(\"::: Running checkForName :::\", inputText);\n    let names = [\n        \"Picard\",\n        \"Janeway\",\n        \"Kirk\",\n        \"Archer\",\n        \"Georgiou\"\n    ]\n\n    if(names.includes(inputText)) {\n        alert(\"Welcome, Captain!\")\n    }\n}\n\nexport { checkForName }\n"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/Nikki/personal-projects/fend-webpack-content/src/client/js/formHandler.js",
+              "name": "./src/client/js/formHandler.js",
+              "index": 2,
+              "index2": 1,
+              "size": 433,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/Nikki/personal-projects/fend-webpack-content/src/client/index.js",
+              "issuerId": null,
+              "issuerName": "./src/client/index.js",
+              "issuerPath": [
+                {
+                  "id": null,
+                  "identifier": "/Users/Nikki/personal-projects/fend-webpack-content/src/client/index.js",
+                  "name": "./src/client/index.js"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/Nikki/personal-projects/fend-webpack-content/src/client/index.js",
+                  "module": "./src/client/index.js",
+                  "moduleName": "./src/client/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./js/formHandler",
+                  "loc": "2:0-47"
+                }
+              ],
+              "usedExports": false,
+              "providedExports": [
+                "handleSubmit"
+              ],
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "function handleSubmit(event) {\n    event.preventDefault()\n\n    // check what text was put into the form field\n    let formText = document.getElementById('name').value\n    checkForName(formText)\n\n    console.log(\"::: Form Submitted :::\")\n    fetch('http://localhost:8080/test')\n    .then(res => res.json())\n    .then(function(res) {\n        document.getElementById('results').innerHTML = res.message\n    })\n}\n\nexport { handleSubmit }\n"
+            }
+          ],
+          "filteredModules": 0
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/client/index.js",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "/Users/Nikki/personal-projects/fend-webpack-content/src/client/index.js ee7c36af77e08c81849e0aec8976337e",
+      "name": "./src/client/index.js + 2 modules",
+      "index": 0,
+      "index2": 2,
+      "size": 914,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./src/client/index.js",
+          "loc": "main"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 0,
+      "modules": [
+        {
+          "id": null,
+          "identifier": "/Users/Nikki/personal-projects/fend-webpack-content/src/client/index.js",
+          "name": "./src/client/index.js",
+          "index": 0,
+          "index2": 2,
+          "size": 167,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/client/index.js",
+              "loc": "main"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is an entry point"
+          ],
+          "depth": 0,
+          "source": "import { checkForName } from './js/nameChecker'\nimport { handleSubmit } from './js/formHandler'\n\nconsole.log(checkForName);\n\nalert(\"I EXIST\")\nconsole.log(\"CHANGE!!\");\n"
+        },
+        {
+          "id": null,
+          "identifier": "/Users/Nikki/personal-projects/fend-webpack-content/src/client/js/nameChecker.js",
+          "name": "./src/client/js/nameChecker.js",
+          "index": 1,
+          "index2": 0,
+          "size": 314,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "/Users/Nikki/personal-projects/fend-webpack-content/src/client/index.js",
+          "issuerId": null,
+          "issuerName": "./src/client/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/Users/Nikki/personal-projects/fend-webpack-content/src/client/index.js",
+              "name": "./src/client/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/Nikki/personal-projects/fend-webpack-content/src/client/index.js",
+              "module": "./src/client/index.js",
+              "moduleName": "./src/client/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./js/nameChecker",
+              "loc": "1:0-47"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/Nikki/personal-projects/fend-webpack-content/src/client/index.js",
+              "module": "./src/client/index.js",
+              "moduleName": "./src/client/index.js",
+              "type": "harmony import specifier",
+              "userRequest": "./js/nameChecker",
+              "loc": "4:12-24"
+            }
+          ],
+          "usedExports": [
+            "checkForName"
+          ],
+          "providedExports": [
+            "checkForName"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "function checkForName(inputText) {\n    console.log(\"::: Running checkForName :::\", inputText);\n    let names = [\n        \"Picard\",\n        \"Janeway\",\n        \"Kirk\",\n        \"Archer\",\n        \"Georgiou\"\n    ]\n\n    if(names.includes(inputText)) {\n        alert(\"Welcome, Captain!\")\n    }\n}\n\nexport { checkForName }\n"
+        },
+        {
+          "id": null,
+          "identifier": "/Users/Nikki/personal-projects/fend-webpack-content/src/client/js/formHandler.js",
+          "name": "./src/client/js/formHandler.js",
+          "index": 2,
+          "index2": 1,
+          "size": 433,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "/Users/Nikki/personal-projects/fend-webpack-content/src/client/index.js",
+          "issuerId": null,
+          "issuerName": "./src/client/index.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/Users/Nikki/personal-projects/fend-webpack-content/src/client/index.js",
+              "name": "./src/client/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/Nikki/personal-projects/fend-webpack-content/src/client/index.js",
+              "module": "./src/client/index.js",
+              "moduleName": "./src/client/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./js/formHandler",
+              "loc": "2:0-47"
+            }
+          ],
+          "usedExports": false,
+          "providedExports": [
+            "handleSubmit"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "function handleSubmit(event) {\n    event.preventDefault()\n\n    // check what text was put into the form field\n    let formText = document.getElementById('name').value\n    checkForName(formText)\n\n    console.log(\"::: Form Submitted :::\")\n    fetch('http://localhost:8080/test')\n    .then(res => res.json())\n    .then(function(res) {\n        document.getElementById('results').innerHTML = res.message\n    })\n}\n\nexport { handleSubmit }\n"
+        }
+      ],
+      "filteredModules": 0
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": []
+}
