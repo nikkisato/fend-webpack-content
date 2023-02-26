@@ -1,5 +1,6 @@
-module.exports = {
-  entry: "./src/client/index.js",
-};
+import { handleSubmit } from "./js/formHandler";
+import { checkForName } from "./js/nameChecker.js";
+
+console.log(checkForName);
 
 alert("Hello!");
